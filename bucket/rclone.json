@@ -1,0 +1,16 @@
+{
+    "version":  "1.3.5",
+    "license": "MIT",
+    "homepage": "http://rclone.org/downloads/",
+    "architecture": {
+        "64bit": {
+            "url": "http://downloads.rclone.org/rclone-v1.35-windows-amd64.zip",
+            "extract_dir": "rclone-v1.35-windows-amd64"
+        },
+        "32bit": {
+            "url": "http://downloads.rclone.org/rclone-v1.35-windows-386.zip",
+            "extract_dir": "rclone-v1.35-windows-386"
+        }
+    },
+    "bin": "rclone.exe"
+}
